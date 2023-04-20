@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+body{
+  /* @apply is tailwind directive. */
+  /* @apply basically let's you use pre defined utility classes into your custom css. */
+  @apply bg-zinc-900 h-full overflow-x-hidden;
+}
+
+#__next{
+  @apply h-full;
+}
+
+html{
+  @apply h-full;
+}

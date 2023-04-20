@@ -1,0 +1,12 @@
+to create a next app 
+npx create-next-app --typescript
+
+
+ //create routes in next js
+ just create a file in pages folder and tada you have created your route.
+
+ //to install taiwind css into your project
+ use command : npm install -D tailwindcss prefix autoprefixer
+
+ // to configure tailwindcss
+ npx tailwindcss init -p
